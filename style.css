@@ -1,0 +1,153 @@
+body{
+  font-size: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+input{
+  width: 50%;
+}
+
+h1{
+  font-size: 5vh;
+}
+
+h3{
+  font-size: 16px;
+}
+
+h2{
+  font-size: 14px;
+}
+
+.searchBox{
+  width: 100%;
+  height: 6vh;
+  display:flex;
+  justify-content: space-between;
+      margin-top: 2vh;
+}
+
+.icon{
+    width: 3vh;
+    border-radius: 50%;
+    height: 3vh;
+    margin-top: 2%;
+        border: none;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+      width: 100%;
+    height: 20vh;
+}
+
+.studioName{
+  width: 70%;
+  padding: 3vh;
+}
+
+.graph{
+  width: 30%;
+}
+
+.graph img{
+        width: 48vw;
+
+}
+
+.statistics{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 20vh;
+}
+
+.statistics img{
+      width: 130%;
+    height: 20vh;
+    margin: 0;
+    border-radius: 50%;
+
+}
+
+.description{
+      width: 92%;
+    margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+      height: 90vh;
+}
+
+.menu{
+    width: 100%;
+    height: 15vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    margin-top: -50vh;
+}
+
+.socialMedia{
+  width: 100%;
+  height: 16vh;
+  background-color: red;
+  position: absolute;
+}
+
+.studio{
+  width: 90vw;
+  padding-top: 6px;
+
+}
+
+.profile{
+    background-image: url('images/0P5A9182 copy.jpg');
+    background-size: contain;
+    width: 5vh;
+    height: 5vh;
+    margin-left: 2vh;
+    border: 1px solid black; 
+}
+
+.add{
+   background-image: url('images/add-circular-button.svg');
+    background-size: contain; 
+}
+
+.map{
+   background-image: url('images/placeholder.svg');
+    background-size: contain; 
+}
+
+.help{
+   background-image: url('images/info.svg');
+    background-size: contain; 
+}
+
+h4{
+  font-size: 12px;
+}
+
+.graphic1{
+  background-image: url('images/Untitled design (1).png');
+    background-size: contain;
+    width: 40%;
+    height: 18vh;
+}
+
+.graphic2{
+  background-image: url('images/Untitled design (2).png');
+    background-size: cover;
+    width: 19vh;
+    height: 18vh;
+}
+
+.graphic3{
+  background-image: url('images/Untitled design copy.png');
+    background-size: contain;
+    width: 40%;
+    height: 18vh;
+}
