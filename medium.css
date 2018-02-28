@@ -33,7 +33,7 @@ font-family: 'Roboto', sans-serif;
 width: 92%;
 height: 7vh;
 margin: 10px auto;
-margin-top: 2.6vh;
+margin-top: 1.8vh;
 border-radius: 0;
 outline: none;
 background-color: white;
@@ -463,7 +463,6 @@ margin-right: 1vh;
 
 .socialMedia{
 width: 70%;
-padding-bottom: 2vh;
 margin-left: 2vh;
 order: 2;
 }
@@ -566,7 +565,7 @@ margin-right: 5px;
 .shareBox{
 width: 90%;
 margin: 10px auto;
-margin-bottom: 4vh;
+margin-bottom: 2vh;
 padding-bottom: 4vh;
 border-bottom: 1px solid lightgray;
 }
