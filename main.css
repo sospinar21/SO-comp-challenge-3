@@ -1,727 +1,730 @@
 @media screen and (min-width: 1220px) {
 
-body{
-font-family: 'Roboto', sans-serif;
-font-weight: normal;
-font-size: 0;
-margin: 0;
-overflow-x: hidden;
-}  
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
 
-h5{
-font-size: 4vh;
-margin-left: 9.3vh;
-margin-top: 11vh;
-position: absolute;
-text-align: center;
+h5 {
+  font-size: 4vh;
+  margin-left: 9.3vh;
+  margin-top: 11vh;
+  position: absolute;
+  text-align: center;
 }
 
 svg {
--webkit-transform: rotate(-90deg);
-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
-title{
-color:black;
+title {
+  color: black;
 }
 
-main{
-display: inline-block;
-width: 85%;
-margin-left: 20%;
+main {
+  display: inline-block;
+  width: 85%;
+  margin-left: 20%;
 }
 
-button{
-font-family: 'Roboto', sans-serif;
-width: 92%;
-height: 7vh;
-margin: 10px auto;
-margin-top: 1.8vh;
-border-radius: 0;
-outline: none;
-background-color: white;
-cursor: pointer; 
+button {
+  font-family: 'Roboto', sans-serif;
+  width: 92%;
+  height: 7vh;
+  margin: 10px auto;
+  margin-top: 1.8vh;
+  border-radius: 0;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
 }
 
-input{
-font-family: 'Roboto', sans-serif;
-font-size: 14px;
-outline: none;
-width: 80%;
-border:none;
+input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  outline: none;
+  width: 80%;
+  border: none;
 }
 
-input:placeholder{
-margin-left: 10px;
+input:placeholder {
+  margin-left: 10px;
 }
 
-nav p{
-font-size: 14px;
-color: white;
+nav p {
+  font-size: 14px;
+  color: white;
 }
 
-content{
-display: flex;
-overflow: hidden;
+content {
+  display: flex;
+  overflow: hidden;
 }
 
-h1{
-font-size: 5vh;
+h1 {
+  font-size: 5vh;
 }
 
-h3{
-font-size: 18px;
-margin-bottom: 10px;
-margin-right: 2vh;
-padding: 0;
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-right: 2vh;
+  padding: 0;
 }
 
-h2{
-font-size: 2vh;
+h2 {
+  font-size: 2vh;
 }
 
-p{
-font-size: 12px;
+p {
+  font-size: 12px;
 }
 
-a{
-display: block;
-color: black;
-text-decoration: none;
-font-weight: normal;
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
 }
 
-.sideMenu{
-display: inline-block;
-width: 20%;
-background-color:black;
-position: fixed;
-height: 100vh;
-border-right: 2px solid #b5b5b5;
+.sideMenu {
+  display: inline-block;
+  width: 20%;
+  background-color: black;
+  position: fixed;
+  height: 100vh;
+  border-right: 2px solid #b5b5b5;
 }
 
-.whiteBg{
-background-color: white;
+.whiteBg {
+  background-color: white;
 }
 
-.mainMenu{
-width: 80%;
-margin: 4vh 0vh 3vh;
-display: flex;
-font-size: 2.4vh;
-justify-content: space-evenly;
-box-sizing: border-box;
+.mainMenu {
+  width: 80%;
+  margin: 4vh 0vh 3vh;
+  display: flex;
+  font-size: 2.4vh;
+  justify-content: space-evenly;
+  box-sizing: border-box;
 }
 
-.mainMenu a{
-font-weight: 550;
-color: black;
+.mainMenu a {
+  font-weight: 550;
+  color: black;
 }
 
-.mainMenu a:hover{
-color: #0d99fe;
+.mainMenu a:hover {
+  color: #0d99fe;
 }
 
-.menuSection i{
-margin-right:1.5vh;
-vertical-align: top;
-
+.menuSection i {
+  margin-right: 1.5vh;
+  vertical-align: top;
 }
 
-.searchIcon{
-margin-top: 2.4vh;
-opacity: .3;
+.searchIcon {
+  margin-top: 2.4vh;
+  opacity: .3;
 }
 
 
-.aMenu{
-font-size: 11.5px;
-color: gainsboro;
+.aMenu {
+  font-size: 11.5px;
+  color: gainsboro;
 }
 
-.menuSection{
-width: 80%;
-margin-left: 15px;
-line-height: 4vh;
-padding: 15px;
-padding-top: 1.2vh;
+.menuSection {
+  width: 80%;
+  margin-left: 15px;
+  line-height: 4vh;
+  padding: 15px;
+  padding-top: 1.2vh;
 }
 
-.userInfo{
-text-align: center;
-margin-top: 2vh;
-width: 80%;
-margin-left: 15px;
-border-bottom: 1px solid gainsboro;
-padding-bottom: 12px;
-color: white;
+.userInfo {
+  text-align: center;
+  margin-top: 2vh;
+  width: 80%;
+  margin-left: 15px;
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 12px;
+  color: white;
 }
 
-.logo{
-width: 32vh;
+.logo {
+  width: 32vh;
 }
 
-.hover{
-cursor: pointer;
-} 
+.hover {
+  cursor: pointer;
+}
 
-.projects{
-width: 2vh;
+.projects {
+  width: 2vh;
 }
 
-.projects p{
-line-height: 3.9vh;
-font-size: 12px;
+.projects p {
+  line-height: 3.9vh;
+  font-size: 12px;
 }
 
-.barChart{
-display: flex;
-padding-left: 4vh;
+.barChart {
+  display: flex;
+  padding-left: 4vh;
 }
 
-.admin{
-border-bottom: 1px solid gainsboro;
-border-top: 1px solid gainsboro;
+.admin {
+  border-bottom: 1px solid gainsboro;
+  border-top: 1px solid gainsboro;
 }
 
-.searchBox{
-height: 8vh;
-display: flex;
-justify-content: space-between;
-border-bottom: 1px solid lightgrey;
+.searchBox {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
 }
 
-.icon{
-width: 3vh;
-border-radius: 50%;
-height: 3vh;
-border: none;
+.icon {
+  width: 3vh;
+  border-radius: 50%;
+  height: 3vh;
+  border: none;
 }
 
-.title{
-display: flex;
-justify-content: space-between;
-width: 100%;
-height: 20vh;
+.title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
 }
 
-.studioName{
-width: 90%;
-margin:10px auto;
+.studioName {
+  width: 90%;
+  margin: 10px auto;
 }
 
-.graph{
-width: 90%;
-height: 28vh;
-display: flex;
-justify-content: space-evenly;
-border-left:3px solid black;
-border-bottom:3px solid black;
+.graph {
+  width: 90%;
+  height: 28vh;
+  display: flex;
+  justify-content: space-evenly;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
-.years{
-border: none;
-height: 2vh;
-margin-left: 4.7vh;
-margin-top: 1vh;
-width: 88%;
+.years {
+  border: none;
+  height: 2vh;
+  margin-left: 4.7vh;
+  margin-top: 1vh;
+  width: 88%;
 }
 
-.graph img{
-width: 48vw;
+.graph img {
+  width: 48vw;
 }
 
-.infoWrap{
-order:1;
+.infoWrap {
+  order: 1;
 }
 
-.charts{
-display: flex;
-width: 97%;
-margin: 10px auto;
-justify-content: space-between;
+.charts {
+  display: flex;
+  width: 97%;
+  margin: 10px auto;
+  justify-content: space-between;
 }
 
-.colorWrapper{
-border-top: .2rem solid #ccc;
+.colorWrapper {
+  border-top: .2rem solid #ccc;
 }
 
-.jobs{
-margin-left: 30vw !important;
+.jobs {
+  margin-left: 30vw !important;
 }
 
-.perf{
-margin-left: 15vw !important;
+.perf {
+  margin-left: 15vw !important;
 }
 
-.mainInfo{
-display: flex;
-width: 96%;
-margin: auto;
+.mainInfo {
+  display: flex;
+  width: 96%;
+  margin: auto;
 }
 
-.iconTop{
-height: 100%;
-width: 8%;
-text-align: center;
-padding-top: 2vh;
+.iconTop {
+  height: 100%;
+  width: 8%;
+  text-align: center;
+  padding-top: 2vh;
 }
 
-.iconTop:hover{
-background-color:  #0d99fe;
-color:white;
+.iconTop:hover {
+  background-color: #0d99fe;
+  color: white;
 }
 
-.iconTop i:hover{
-color:white;
+.iconTop i:hover {
+  color: white;
 }
 
-.titleSection{
-width: 97%;
-display: flex;
+.titleSection {
+  width: 97%;
+  display: flex;
 }
 
-.titleSection h2{
-margin-top: 1vh;
+.titleSection h2 {
+  margin-top: 1vh;
 }
 
-.iconBorder{
-border-right: 1px solid gainsboro;
-border-left: 1px solid gainsboro;
+.iconBorder {
+  border-right: 1px solid gainsboro;
+  border-left: 1px solid gainsboro;
 }
-.stat{
+.stat {
 
-width: 20vh !important;
-border-bottom: 1px solid blue !important;
-border: none !important;
+  width: 20vh !important;
+  border-bottom: 1px solid blue !important;
+  border: none !important;
 }
 
-.barGraph{
-width: 7%;
-background: linear-gradient(to bottom, #cccccc57 0%,#cccccc73 30%,#0484e5 31%,#0484e5 100%); 
+.barGraph {
+  width: 7%;
+  background: linear-gradient(to bottom, #cccccc57 0%, #cccccc73 30%, #0484e5 31%, #0484e5 100%);
 }
 
-.barM{
-background: linear-gradient(to bottom, #cccccc57 0%,#cccccc73 79%,#0484e5 80%,#0484e5 100%); 
+.barM {
+  background: linear-gradient(to bottom, #cccccc57 0%, #cccccc73 79%, #0484e5 80%, #0484e5 100%);
 }
 
-.barT{
-background: linear-gradient(to bottom, #cccccc57 0%,#cccccc73 59%,#0484e5 60%,#0484e5 100%); 
+.barT {
+  background: linear-gradient(to bottom, #cccccc57 0%, #cccccc73 59%, #0484e5 60%, #0484e5 100%);
 }
 
-.barW{
-background: linear-gradient(to bottom, #cccccc57 0%,#cccccc73 69%,#0484e5 70%,#0484e5 100%); 
+.barW {
+  background: linear-gradient(to bottom, #cccccc57 0%, #cccccc73 69%, #0484e5 70%, #0484e5 100%);
 }
 
-.barTh{
-background: linear-gradient(to bottom, #cccccc57 0%,#cccccc73 49%,#0484e5 50%,#0484e5 100%); 
+.barTh {
+  background: linear-gradient(to bottom, #cccccc57 0%, #cccccc73 49%, #0484e5 50%, #0484e5 100%);
 }
 
-.barF{
-background: linear-gradient(to bottom, #cccccc57 0%,#cccccc73 34%,#0484e5 35%,#0484e5 100%); 
+.barF {
+  background: linear-gradient(to bottom, #cccccc57 0%, #cccccc73 34%, #0484e5 35%, #0484e5 100%);
 }
 
-.inner h2{
-font-size: 4.2vh;
+.inner h2 {
+  font-size: 4.2vh;
 }
 
-.inner h4{
-font-size: 3vh;
-margin-top: 1.5vh;
+.inner h4 {
+  font-size: 3vh;
+  margin-top: 1.5vh;
 }
 
-.description h4{
-width: 62vh;
-padding-right: 1vh;
+.description h4 {
+  width: 62vh;
+  padding-right: 1vh;
 }
 
-.statistics{
-display: flex;
-justify-content: center;
-width: 85vh;
-height: 15vh;
-margin-top: 7vh;
-order: 1;
+.statistics {
+  display: flex;
+  justify-content: center;
+  width: 85vh;
+  height: 15vh;
+  margin-top: 7vh;
+  order: 1;
 }
 
-.statistics img{
-width: 130%;
-height: 20vh;
-margin: 0;
-border-radius: 50%;
+.statistics img {
+  width: 130%;
+  height: 20vh;
+  margin: 0;
+  border-radius: 50%;
 }
 
-.longButton input{
-font-family: 'Roboto', sans-serif;
-width: 92%;
-height: 7vh;
-margin: 10px auto;
-margin-top: 1.8vh;
-border-radius: 0;
-font-size: 2vh;
+.longButton input {
+  font-family: 'Roboto', sans-serif;
+  width: 92%;
+  height: 7vh;
+  margin: 10px auto;
+  margin-top: 1.8vh;
+  border-radius: 0;
+  font-size: 2vh;
 }
 
-.bar{
-height: 8vh;
-background-color: #0d99fe;
-display: flex;
-padding: 2.3vh;
-padding-top: 3vh;
+.bar {
+  height: 8vh;
+  background-color: #0d99fe;
+  display: flex;
+  padding: 2.3vh;
+  padding-top: 3vh;
 }
 
-.bar h3{
-color:white;
-margin:0;
+.bar h3 {
+  color: white;
+  margin: 0;
 }
 
-.bg{
-background-image: url('http://www.tokkoro.com/picsup/3100503-architectural-design_architecture_black-and-white_buildings_clouds_construction_daylight_exterior_futuristic_glass-items_glass-windows_high_low-angle-shot_modern_outdoors_perspective_sky_skyline_.jpg');
-width: 100%;
-height: 170%;
-position: absolute;
-background-size: cover;
-opacity: .06;
-z-index: -1;
+.bg {
+  background-image: url('http://www.tokkoro.com/picsup/3100503-architectural-design_architecture_black-and-white_buildings_clouds_construction_daylight_exterior_futuristic_glass-items_glass-windows_high_low-angle-shot_modern_outdoors_perspective_sky_skyline_.jpg');
+  width: 100%;
+  height: 170%;
+  position: absolute;
+  background-size: cover;
+  opacity: .06;
+  z-index: -1;
 }
 
-.description{
-margin: 15px auto;
-display: flex;
-justify-content: space-between;
-background-color: #d3d3d32e;
-padding: 1vh;
-margin-top: 0;
+.description {
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d3d3d32e;
+  padding: 1vh;
+  margin-top: 0;
 }
 
-.description h3{
-width: 12vw;
+.description h3 {
+  width: 12vw;
 }
 
-.menu{
-width: 100%;
-height: 8vh;
-background-color: white;
-display: flex;
-justify-content: space-around;
-position: fixed;
-margin-top: -vh;
-padding-top: 2.2vh;
-z-index: 3;
-border-top: 1px solid lightgrey;
+.menu {
+  width: 100%;
+  height: 8vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  margin-top: -vh;
+  padding-top: 2.2vh;
+  z-index: 3;
+  border-top: 1px solid lightgrey;
 }
 
-.link{
-vertical-align: text-top;
-margin-right: 1vh;
+.link {
+  vertical-align: text-top;
+  margin-right: 1vh;
 }
 
-.socialMedia{
-width: 70%;
-padding-bottom: 2vh;
-margin-left: 2vh;
-order: 2;
+.socialMedia {
+  width: 70%;
+  padding-bottom: 2vh;
+  margin-left: 2vh;
+  order: 2;
 }
 
-.studio{
-padding-top: 3.8vh;
-margin-left: 4vh;
-margin-right: 4vh;
-box-sizing: border-box;
-display: flex;
-padding-left: 2vh;
-padding-bottom: 3.5vh;
-border-bottom: 1px solid lightgray;
+.studio {
+  padding-top: 3.8vh;
+  margin-left: 4vh;
+  margin-right: 4vh;
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 2vh;
+  padding-bottom: 3.5vh;
+  border-bottom: 1px solid lightgray;
 }
 
-.edit{
-width: 90%;
-margin: 5vh 0vh 1vh;
-text-align: right;
-letter-spacing: 3.1vh;
-vertical-align: inherit;
-padding-top: 5%;
+.edit {
+  width: 90%;
+  margin: 5vh 0vh 1vh;
+  text-align: right;
+  letter-spacing: 3.1vh;
+  vertical-align: inherit;
+  padding-top: 5%;
 }
 
-.socialMedia h1{
-font-size: 4vh;
-margin-left: 3vh;
+.socialMedia h1 {
+  font-size: 4vh;
+  margin-left: 3vh;
 }
 
-.completeChart{
-order: 2;
-width: 40%;
-padding-top: 3vh;
+.completeChart {
+  order: 2;
+  width: 40%;
+  padding-top: 3vh;
 }
 
-.asana{
-margin-top: 0;
-background-image: url('http://www.movingbrands.com/wp-content/uploads/2015/10/Asana_Logo_positive-full2.png');
-background-image: url(http://www.movingbrands.com/wp-content/uploads/2015/10/Asana_Logo_positive-full2.png);
-background-size: 24vh;
-background-position-y: center;
-background-position-x: center;
-background-repeat: no-repeat;
-display: block;
+.asana {
+  margin-top: 0;
+  background-image: url('http://www.movingbrands.com/wp-content/uploads/2015/10/Asana_Logo_positive-full2.png');
+  background-image: url(http://www.movingbrands.com/wp-content/uploads/2015/10/Asana_Logo_positive-full2.png);
+  background-size: 24vh;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  display: block;
 }
 
-.monday{
-background-image: url('https://www.veracityagency.com/wp-content/uploads/monday-com-logo.png');
-background-size: 19vh;
-background-position-y: center;
-background-position-x: center;
-background-repeat: no-repeat;
-display: block;
+.monday {
+  background-image: url('https://www.veracityagency.com/wp-content/uploads/monday-com-logo.png');
+  background-size: 19vh;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  display: block;
 }
 
-.todoist{
-background-image: url('https://upload.wikimedia.org/wikipedia/de/f/fe/Todoist-lockup_positive.png') ;
-background-size: 24vh;
-background-position-y: center;
-background-position-x: center;
-background-repeat: no-repeat;
-display: block;
-margin-bottom: 6vh;
+.todoist {
+  background-image: url('https://upload.wikimedia.org/wikipedia/de/f/fe/Todoist-lockup_positive.png');
+  background-size: 24vh;
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  display: block;
+  margin-bottom: 6vh;
 }
 
-.open{
-width: 12vh;
-border-top: .2rem solid #ccc;
-height: 5.3vh;
-border: 1px solid #d3d3d3 !important;
-vertical-align: top;
-font-size: 2vh;
-border-radius: 99px;
-display:inline-block;
-margin:0;
-cursor: pointer;
+.open {
+  width: 12vh;
+  border-top: .2rem solid #ccc;
+  height: 5.3vh;
+  border: 1px solid #d3d3d3 !important;
+  vertical-align: top;
+  font-size: 2vh;
+  border-radius: 99px;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
 }
 
-.open:hover{
-border: 1px solid #0d99fe;
+.open:hover {
+  border: 1px solid #0d99fe;
 }
 
-.editButton{
-margin-left: 2vh;
-font-size: 14px !important;
-opacity: .8;
-height: 2.8vh;
+.editButton {
+  margin-left: 2vh;
+  font-size: 14px !important;
+  opacity: .8;
+  height: 2.8vh;
 }
 
-.editText{
-font-size: 15px !important;
-vertical-align: top;
+.editText {
+  font-size: 15px !important;
+  vertical-align: top;
 }
 
-.openButton{
-color: green;
-font-size: 18px !important;
-vertical-align: top;
-margin-right: 5px;
+.openButton {
+  color: green;
+  font-size: 18px !important;
+  vertical-align: top;
+  margin-right: 5px;
 }
 
-.shareBox{
-width: 90%;
-margin: 10px auto;
-margin-bottom: 4vh;
-padding-bottom: 4vh;
-margin-top: 4vh;
-border-bottom: 1px solid lightgray;
+.shareBox {
+  width: 90%;
+  margin: 10px auto;
+  margin-bottom: 4vh;
+  padding-bottom: 4vh;
+  margin-top: 4vh;
+  border-bottom: 1px solid lightgray;
 }
 
-.longButton{
-display: flex;
+.longButton {
+  display: flex;
 }
 
-.smallButton{
-width: 6vw;
-background-color: #0d99fe;
-color:white;
-cursor: pointer;
+.smallButton {
+  width: 6vw;
+  background-color: #0d99fe;
+  color: white;
+  cursor: pointer;
 }
 
-.profile{
-background-image: url('images/0P5A9182 copy.jpg');
-background-size: cover;
-width: 15vh;
-height: 15vh;
-margin-left: 2vh;
-border: 1px solid black;
-margin: 0;
-margin-bottom: 2vh;
+.profile {
+  background-image: url('images/0P5A9182 copy.jpg');
+  background-size: cover;
+  width: 15vh;
+  height: 15vh;
+  margin-left: 2vh;
+  border: 1px solid black;
+  margin: 0;
+  margin-bottom: 2vh;
 }
 
-.add{
-background-image: url('images/add-circular-button.svg');
-background-size: contain; 
+.add {
+  background-image: url('images/add-circular-button.svg');
+  background-size: contain;
 }
 
-.map{
-background-image: url('images/placeholder.svg');
-background-size: contain; 
+.map {
+  background-image: url('images/placeholder.svg');
+  background-size: contain;
 }
 
-.help{
-background-image: url('images/info.svg');
-background-size: contain; 
+.help {
+  background-image: url('images/info.svg');
+  background-size: contain;
 }
 
-h4{
-font-size: 14px;
-font-weight: normal;
-line-height: 18px;
+h4 {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
 }
 
-.graphic1{
-background-image: url('images/Untitled design (1).png');
-background-size: contain;
-width: 40%;
-height: 18vh;
+.graphic1 {
+  background-image: url('images/Untitled design (1).png');
+  background-size: contain;
+  width: 40%;
+  height: 18vh;
 }
 
-.graphic2{
-background-image: url('images/Untitled design (2).png');
-background-size: cover;
-width: 19vh;
-height: 18vh;
+.graphic2 {
+  background-image: url('images/Untitled design (2).png');
+  background-size: cover;
+  width: 19vh;
+  height: 18vh;
 }
 
-.graphic3{
-background-image: url('images/Untitled design copy.png');
-background-size: contain;
-width: 40%;
-height: 18vh;
+.graphic3 {
+  background-image: url('images/Untitled design copy.png');
+  background-size: contain;
+  width: 40%;
+  height: 18vh;
 }
 
-.location{
-display: flex;
-margin-left: 15%;
-margin-top: -20px;
+.location {
+  display: flex;
+  margin-left: 15%;
+  margin-top: -20px;
 }
 
 @font-face {
-font-family: 'Material Icons';
-font-style: normal;
-font-weight: 400;
-src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
-src: local('Material Icons'),
-local('MaterialIcons-Regular'),
-url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
-url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
-url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local('Material Icons'),
+  local('MaterialIcons-Regular'),
+  url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+  url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+  url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
 }
 
 .material-icons {
-font-family: 'Material Icons';
-font-weight: normal;
-font-style: normal;
-font-size: 24px;  /* Preferred icon size */
-display: inline-block;
-line-height: 1;
-text-transform: none;
-letter-spacing: normal;
-word-wrap: normal;
-white-space: nowrap;
-direction: ltr;
-cursor: pointer;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  cursor: pointer;
 
--webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 
-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
 
--moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 
-font-feature-settings: 'liga';
+  font-feature-settings: 'liga';
 }
 
-.material-icons:hover{
-color: #0d99fe;
+.material-icons:hover {
+  color: #0d99fe;
 }
 
-.selected{
-background-color: black;
+.selected {
+  background-color: black;
 }
 
-.arrowRight, .arrowLeft{
-display:none !important;
+.arrowRight,
+.arrowLeft {
+  display: none !important;
 }
 
 .item h2 {
-text-align:center;
-position: absolute;
-line-height: 125px;
-margin-left: 9.3vh;
+  text-align: center;
+  position: absolute;
+  line-height: 125px;
+  margin-left: 9.3vh;
 }
 
 .circle_animation {
-stroke-dasharray: 440; /* this value is the pixel circumference of the circle */
-stroke-dashoffset: 440;
+  stroke-dasharray: 440;
+  /* this value is the pixel circumference of the circle */
+  stroke-dashoffset: 440;
 }
 
 .html .circle_animation {
--webkit-animation: html 1s ease-out forwards;
-animation: html 1s ease-out forwards;
+  -webkit-animation: html 1s ease-out forwards;
+  animation: html 1s ease-out forwards;
 }
 
 .css .circle_animation {
--webkit-animation: css 1s ease-out forwards;
-animation: css 1s ease-out forwards;
+  -webkit-animation: css 1s ease-out forwards;
+  animation: css 1s ease-out forwards;
 }
 
 @-webkit-keyframes html {
-to {
-stroke-dashoffset: 80; /* 50% would be 220 (half the initial value specified above) */
-}
+  to {
+      stroke-dashoffset: 80;
+      /* 50% would be 220 (half the initial value specified above) */
+  }
 }
 
 @keyframes html {
-to {
-stroke-dashoffset: 80;
-}
+  to {
+      stroke-dashoffset: 80;
+  }
 }
 
 @-webkit-keyframes css {
-to {
-stroke-dashoffset: 160;
-}
+  to {
+      stroke-dashoffset: 160;
+  }
 }
 
 @keyframes css {
-to {
-stroke-dashoffset: 160;
-}
-}
-
-.buttons{
-width: 90%;
-display: flex;
-justify-content: ;
-margin: 2vh 0vh 7vh 6vh;
-border-bottom: 1px solid lightgray;
-padding-bottom: 6vh;
+  to {
+      stroke-dashoffset: 160;
+  }
 }
 
-.hidden{
-display:inline-block;
+.buttons {
+  width: 90%;
+  display: flex;
+  justify-content: ;
+  margin: 2vh 0vh 7vh 6vh;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 6vh;
 }
 
-.hide{
-display: none !important;
+.hidden {
+  display: inline-block;
 }
 
-.red{
-color: red
+.hide {
+  display: none !important;
 }
 
-.yellow{
-color: yellow;
+.red {
+  color: red
 }
 
-.orange{
-color:orange;
+.yellow {
+  color: yellow;
 }
 
-.green{
-color:green;
+.orange {
+  color: orange;
 }
 
+.green {
+  color: green;
+}
 }
