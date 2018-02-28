@@ -1,9 +1,9 @@
 @media (max-width: 530px) {
 
 body {
+  font-family: 'Roboto', sans-serif;
   font-size: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -38,7 +38,6 @@ h3 {
   font-size: 18px;
   margin-bottom: 10px;
   margin-top: 20px;
-  xf
 }
 
 h2 {
@@ -75,7 +74,6 @@ h5 {
 
 .circle_animation {
   stroke-dasharray: 440;
-  /* this value is the pixel circumference of the circle */
   stroke-dashoffset: 440;
 }
 
@@ -92,7 +90,6 @@ h5 {
 @-webkit-keyframes html {
   to {
       stroke-dashoffset: 80;
-      /* 50% would be 220 (half the initial value specified above) */
   }
 }
 
@@ -119,34 +116,34 @@ h5 {
 }
 
 .item h2 {
-  text-align: center;
-  position: absolute;
   line-height: 125px;
   margin-left: 9.3vh;
+  position: absolute;
+  text-align: center;
 }
 
 .arrowRight {
-  position: absolute;
   font-size: 6vh !important;
   margin-left: 50%;
   margin-top: 7.5vh;
+  position: absolute;
 }
 
 .arrowLeft {
-  position: absolute;
   font-size: 6vh !important;
   margin-left: -25%;
   margin-top: 8vh;
+  position: absolute;
 }
 
 .projects {
-  width: 2vh;
   margin-left: 13vw;
+  width: 2vh;
 }
 
 .projects p {
-  line-height: 4.2vh;
   font-size: 12px;
+  line-height: 4.2vh;
 }
 
 .barChart {
@@ -154,11 +151,11 @@ h5 {
 }
 
 .searchBox {
-  margin: 5px auto;
-  width: 95%;
   display: flex;
   justify-content: space-between;
   margin-top: 2vh;
+  margin: 5px auto;
+  width: 95%;
 }
 
 .searchIcon {
@@ -166,8 +163,8 @@ h5 {
 }
 
 .logo {
-  width: 32vh;
   margin-left: 8vh;
+  width: 32vh;
 }
 
 .hover {
@@ -175,10 +172,10 @@ h5 {
 }
 
 .icon {
-  width: 3vh;
   border-radius: 50%;
-  height: 3vh;
   border: none;
+  height: 3vh;
+  width: 3vh;
 }
 
 .iconTop {
@@ -191,24 +188,24 @@ h5 {
 
 .title {
   display: flex;
+  height: 20vh;
   justify-content: space-between;
   width: 100%;
-  height: 20vh;
 }
 
 .studioName {
-  width: 90%;
   margin: 10px auto;
+  width: 90%;
 }
 
 .graph {
-  width: 70%;
-  height: 30vh;
-  display: flex;
-  margin: 2vh 0vh 1vh;
-  justify-content: space-evenly;
-  border-left: 3px solid black;
   border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  display: flex;
+  height: 30vh;
+  justify-content: space-evenly;
+  margin: 2vh 0vh 1vh;
+  width: 70%;
 }
 
 .years {
@@ -222,10 +219,10 @@ h5 {
 }
 
 .stat {
-  margin-left: 37vw !important;
-  width: 20vh !important;
   border-bottom: 1px solid blue !important;
   border: none !important;
+  margin-left: 37vw !important;
+  width: 20vh !important;
 }
 
 .barGraph {
@@ -258,36 +255,36 @@ h5 {
 }
 
 .statistics {
-  padding-left: 32vw;
-  margin: auto;
-  margin-top: 3vh;
   margin-bottom: 3vh;
+  margin-top: 3vh;
+  margin: auto;
+  padding-left: 32vw;
 }
 
 .statistics img {
-  width: 130%;
+  border-radius: 50%;
   height: 20vh;
   margin: 0;
-  border-radius: 50%;
+  width: 130%;
 }
 
 .longButton input {
-  font-family: 'Roboto', sans-serif;
-  width: 92%;
-  height: 7vh;
-  margin: 10px auto;
-  margin-top: 1.8vh;
   border-radius: 0;
+  font-family: 'Roboto', sans-serif;
   font-size: 2vh;
+  height: 7vh;
+  margin-top: 1.8vh;
+  margin: 10px auto;
+  width: 92%;
 }
 
 .bar {
-  width: 92%;
-  height: 7vh;
   background-color: #0d99fe;
-  margin-left: 4%;
   display: flex;
+  height: 7vh;
+  margin-left: 4%;
   padding: 2.3vh;
+  width: 92%;
 }
 
 .bar h3 {
@@ -296,53 +293,53 @@ h5 {
 }
 
 .description {
-  width: 92%;
-  margin: 15px auto;
+  background-color: #d3d3d32e;
   display: flex;
   justify-content: space-between;
-  background-color: #d3d3d32e;
-  padding: 1vh;
   margin-top: 0;
+  margin: 15px auto;
   padding-bottom: 7vh;
+  padding: 1vh;
+  width: 92%;
 }
 
 .menu {
-  width: 100%;
-  height: 11vh;
   background-color: white;
-  display: flex;
-  justify-content: space-evenly;
-  position: fixed;
-  padding-top: 1.1vh;
-  z-index: 3;
-  margin-top: -10vw;
   border-top: 1px solid lightgrey;
+  display: flex;
+  height: 11vh;
+  justify-content: space-evenly;
+  margin-top: -10vw;
+  padding-top: 1.1vh;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
 .link {
-  vertical-align: text-top;
   margin-right: 1vh;
+  vertical-align: text-top;
 }
 
 .socialMedia {
-  width: 100%;
   margin-top: 3.5vh;
-  position: absolute;
   padding-bottom: 8vh;
+  position: absolute;
+  width: 100%;
 }
 
 .studio {
-  padding-top: 1vh;
   border-bottom: 1px solid lightgrey;
   padding-bottom: 1.5vh;
+  padding-top: 1vh;
 }
 
 .edit {
-  width: 96%;
+  letter-spacing: 1vh;
   margin: 5vh 0vh 2vh;
   text-align: right;
-  letter-spacing: 1vh;
   vertical-align: baseline;
+  width: 96%;
 }
 
 .socialMedia h1 {
@@ -380,15 +377,15 @@ h5 {
 }
 
 .open {
-  width: 12vh;
-  height: 4vh;
-  border: 1px solid #d3d3d3;
-  vertical-align: top;
-  font-size: 2vh;
   border-radius: 99px;
-  display: inline-block;
-  margin: 0;
+  border: 1px solid #d3d3d3;
   cursor: pointer;
+  display: inline-block;
+  font-size: 2vh;
+  height: 4vh;
+  margin: 0;
+  vertical-align: top;
+  width: 12vh;
 }
 
 .open:hover {
@@ -396,10 +393,10 @@ h5 {
 }
 
 .editButton {
-  margin-left: 2vh;
   font-size: 14px !important;
-  opacity: .8;
   height: 2.8vh;
+  margin-left: 2vh;
+  opacity: .8;
 }
 
 .editText {
@@ -410,14 +407,14 @@ h5 {
 .openButton {
   color: green;
   font-size: 18px !important;
-  vertical-align: top;
   margin-right: 5px;
+  vertical-align: top;
 }
 
 .shareBox {
-  width: 90%;
-  margin: 10px auto;
   margin-bottom: 4vh;
+  margin: 10px auto;
+  width: 90%;
 }
 
 .longButton {
@@ -425,20 +422,20 @@ h5 {
 }
 
 .smallButton {
-  width: 20%;
   background-color: #0d99fe;
   color: white;
   cursor: pointer;
+  width: 20%;
 }
 
 .profile {
   background-image: url('images/0P5A9182 copy.jpg');
   background-size: contain;
-  width: 4.4vh;
+  border: 1px solid black;
   height: 4.4vh;
   margin-left: 2vh;
-  border: 1px solid black;
   margin: .3vh;
+  width: 4.4vh;
 }
 
 .add {
@@ -459,22 +456,22 @@ h5 {
 .graphic1 {
   background-image: url('images/Untitled design (1).png');
   background-size: contain;
-  width: 40%;
   height: 18vh;
+  width: 40%;
 }
 
 .graphic2 {
   background-image: url('images/Untitled design (2).png');
   background-size: cover;
-  width: 19vh;
   height: 18vh;
+  width: 19vh;
 }
 
 .graphic3 {
   background-image: url('images/Untitled design copy.png');
   background-size: contain;
-  width: 40%;
   height: 18vh;
+  width: 40%;
 }
 
 .location {
@@ -497,19 +494,18 @@ h5 {
 }
 
 .material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  /* Preferred icon size */
+  cursor: pointer;
+  direction: ltr;
   display: inline-block;
+  font-family: 'Material Icons';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
   line-height: 1;
   text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
   white-space: nowrap;
-  direction: ltr;
-  cursor: pointer;
+  word-wrap: normal;
 
   -webkit-font-smoothing: antialiased;
 
