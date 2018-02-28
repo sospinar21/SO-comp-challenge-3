@@ -1,62 +1,38 @@
-@media (max-width: 530px) {
-
+@media screen and (max-width: 894px) and (min-width: 531px) {
 body{
-font-size: 0;
-margin: 0;
 font-family: 'Roboto', sans-serif;
-}
+font-weight: normal;
+margin: 0;
+font-size: 0;
+}  
 
-nav{
-display: hidden;
+main{
+display: inline-block;
+width: 100%;
 }
 
 button{
 font-family: 'Roboto', sans-serif;
-width: 92%;
-height: 7vh;
+width: 100%;
+height: 8vh;
 margin: 10px auto;
 margin-top: 1.8vh;
 border-radius: 0;
 outline: none;
 background-color: white;
-cursor:pointer;
+cursor: pointer; 
 }
 
 input{
-width: 60%;
-height: 5vh;
 font-family: 'Roboto', sans-serif;
 font-size: 14px;
 outline: none;
+width: 80%;
+border:none;
 }
 
-h1{
-font-size: 5vh;
-}
-
-h3{
-font-size: 18px;
-margin-bottom: 10px;
-margin-top: 20px;xf
-}
-
-h2{
-font-size: 14px;
-}
-
-p{
-font-size: 10px;
-}
-
-h4{
-font-size: 2vh;
-font-weight: normal;
-line-height: 3vh;
-}
-
-svg {
--webkit-transform: rotate(-90deg);
-transform: rotate(-90deg);
+input:placeholder{
+margin-left: 10px;
 }
 
 h5{
@@ -67,9 +43,94 @@ margin-left: 8.5vh;
 margin-top: 10vh;
 }
 
+.item h2 {
+text-align:center;
+position: absolute;
+line-height: 125px;
+margin-left: 8.5vh;
+}
+
+.sideMenu{
+display: none
+}
+
+.whiteBg{
+background-color: white;
+}
+
+.mainMenu{
+display:inline-block !important;
+}
+
+.mainMenu a{
+font-weight: 550;
+}
+
+.mainMenu a:hover{
+box-shadow: 2px solid #0d99fe;
+}
+
+nav p{
+font-size: 14px
+color: white;
+}
+
+content{
+display: flex;
+overflow: hidden;
+}
+
+h1{
+font-size: 5vh;
+}
+
+h3{
+font-size: 18px;
+margin-bottom: 10px;
+margin-right: 2vh;
+padding: 0;
+}
+
+h2{
+font-size: 14px;
+}
+
+p{
+font-size: 12px;
+}
+
+a{
+display: block;
+color: black;
+text-decoration: none;
+font-weight: normal;
+}
+
+.menuSection i{
+margin-right:1.5vh;
+vertical-align: top;
+
+}
+
+.searchIcon{
+margin-top: 2.4vh;
+opacity: .3;
+}
+
 
 .bg{
-display: none;
+background-image: url('http://www.tokkoro.com/picsup/3100503-architectural-design_architecture_black-and-white_buildings_clouds_construction_daylight_exterior_futuristic_glass-items_glass-windows_high_low-angle-shot_modern_outdoors_perspective_sky_skyline_.jpg');
+width: 100%;
+height: 170%;
+position: absolute;
+background-size: cover;
+opacity: .15;
+z-index: -1;
+}
+
+svg {
+-webkit-transform: rotate(-90deg);
+transform: rotate(-90deg);
 }
 
 .circle_animation {
@@ -111,64 +172,66 @@ stroke-dashoffset: 160;
 }
 }
 
-.html{
-display: none;
+.aMenu{
+font-size: 11.5px;
+color: gainsboro;
 }
 
-.item h2 {
-text-align:center;
-position: absolute;
-line-height: 125px;
-margin-left: 8.5vh; 
+.menuSection{
+width: 80%;
+margin-left: 15px;
+line-height: 4vh;
+padding: 15px;
+padding-top: 1.2vh;
 }
 
-.arrowRight{
-position: absolute;
-font-size: 6vh !important;
-margin-left: 50%;
-margin-top: 7.5vh;
+.userInfo{
+text-align: center;
+margin-top: 2vh;
+width: 80%;
+margin-left: 15px;
+border-bottom: 1px solid gainsboro;
+padding-bottom: 12px;
+color: white;
+
 }
 
-.arrowLeft{
-position: absolute;
-font-size: 6vh !important;
-margin-left: -25%;
-margin-top: 8vh;
+.arrowRight, .arrowLeft{
+display:none !important;
 }
+
+.logo{
+width: 32vh;
+}
+
+.hover{
+cursor: pointer;
+} 
 
 .projects{
 width: 2vh;
-margin-left: 9vh;
 }
 
 .projects p{
-line-height: 4.2vh;
+line-height: 4.7vh;
 font-size: 12px;
 }
 
 .barChart{
 display: flex;
+padding-left: 4vh;
+}
+
+.admin{
+border-bottom: 1px solid gainsboro;
+border-top: 1px solid gainsboro;
 }
 
 .searchBox{
-margin: 5px auto;
-width: 95%;
-display:flex;
+height: 8vh;
+display: flex;
 justify-content: space-between;
-margin-top: 2vh;
-}
-
-.searchIcon{
-display: none !important;
-}
-
-.logo{
-width: 32vh;
-margin-left: 18vw;
-}
-
-.hover{
-cursor: pointer;
+border-bottom: 1px solid lightgrey;
 }
 
 .icon{
@@ -176,14 +239,6 @@ width: 3vh;
 border-radius: 50%;
 height: 3vh;
 border: none;
-}
-
-.iconTop{
-margin-top: 1vh;
-}
-
-.oculto{
-margin-top: 1vh;
 }
 
 .title{
@@ -199,19 +254,19 @@ margin:10px auto;
 }
 
 .graph{
-width: 70%;
-height: 30vh;
+width: 90%;
+height: 33vh;
 display: flex;
-margin: 2vh 0vh 1vh;
 justify-content: space-evenly;
-border-left: 3px solid black;
-border-bottom: 3px solid black;
+border-left:3px solid black;
+border-bottom:3px solid black;
 }
 
 .years{
 border: none;
 height: 2vh;
-margin-left: 11vh;
+margin-left: 4vh;
+margin-top: 1vh;
 }
 
 .graph img{
@@ -219,8 +274,52 @@ width: 48vw;
 
 }
 
+.infoWrap{
+order:1;
+}
+
+.charts{
+
+width: 97%;
+margin: 10px auto;
+
+}
+
+.mainInfo{
+width: 85%;
+margin: auto;
+}
+
+.iconTop{
+height: 100%;
+width: 12vh;
+text-align: center;
+padding-top: 2vh;
+}
+
+.iconTop:hover{
+background-color:  #0d99fe;
+color:white;
+}
+
+.iconTop i:hover{
+color:white;
+}
+
+.titleSection{
+width: 97%;
+display: flex;
+}
+
+.titleSection h2{
+margin-top: 1vh;
+}
+
+.iconBorder{
+border-right: 1px solid gainsboro;
+border-left: 1px solid gainsboro;
+}
 .stat{
-margin-left: 37vw !important;
 width: 20vh !important;
 border-bottom: 1px solid blue !important;
 border: none !important;
@@ -252,14 +351,27 @@ background: linear-gradient(to bottom, #cccccc57 0%,#cccccc73 34%,#0484e5 35%,#0
 }
 
 .inner h2{
+font-size: 4vh;
+}
+
+.inner h4{
 font-size: 3vh;
+;
+}
+
+.description h4{
+width: 55vw;
+padding-right: 1vh;
 }
 
 .statistics{
-padding-left: 32vw;
+display: flex;
+justify-content: space-around;
+width: 70vh;
 margin: auto;
-margin-top: 3vh;
-margin-bottom: 3vh;
+height: 26vh;
+margin-top: 7vh;
+order: 1;
 
 }
 
@@ -282,12 +394,11 @@ font-size: 2vh;
 }
 
 .bar{
-width: 92%;
-height:7vh;
+height: 8vh;
 background-color: #0d99fe;
-margin-left: 4%;
-display:flex;
+display: flex;
 padding: 2.3vh;
+padding-top: 3vh;
 }
 
 .bar h3{
@@ -295,27 +406,31 @@ color:white;
 margin:0;
 }
 
+.colorWrapper{
+background-color: #f9f9f9;
+}
+
 .description{
-width: 92%;
 margin: 15px auto;
 display: flex;
 justify-content: space-between;
 background-color: #d3d3d32e;
 padding: 1vh;
 margin-top: 0;
-padding-bottom: 7vh;
+}
+
+.description h3{
+width: 25vw;
 }
 
 .menu{
-width: 100%;
+width: 85%;
 height: 9vh;
-background-color: white;
-display: flex;
+margin: auto;
+display: flex !important;
 justify-content: space-evenly;
-position: fixed;
-padding-top: 2vh;
+padding-top: 2.2vh;
 z-index: 3;
-margin-top: -6vh;
 border-top: 1px solid lightgrey;
 }
 
@@ -326,23 +441,25 @@ margin-right: 1vh;
 
 .socialMedia{
 width: 100%;
-margin-top: 3.5vh;
-position: absolute;
-padding-bottom: 8vh;
+padding-bottom: 2vh;
+order: 2;
 }
 
 .studio{
-padding-top: 1vh;
-border-bottom: 1px solid lightgrey;
-padding-bottom: 1.5vh;
+padding-top: 3.8vh;
+display: flex;
+padding-left: 2vh;
+padding-bottom: 3.5vh;
+border-bottom: 1px solid lightgray;
 }
 
 .edit{
-width: 96%;
-margin: 5vh 0vh 2vh;
+width: 90%;
+margin: 5vh 0vh 1vh;
 text-align: right;
-letter-spacing: 1vh;
-vertical-align: baseline;
+letter-spacing: 3.2vh;
+vertical-align: inherit;
+padding-top: 5%;
 }
 
 .socialMedia h1{
@@ -350,7 +467,15 @@ font-size: 4vh;
 margin-left: 3vh;
 }
 
+.completeChart{
+order: 2;
+width: 65vh;
+padding-top: 3vh;
+margin: auto;
+}
+
 .asana{
+margin-top: 0;
 background-image: url('http://www.movingbrands.com/wp-content/uploads/2015/10/Asana_Logo_positive-full2.png');
 background-image: url(http://www.movingbrands.com/wp-content/uploads/2015/10/Asana_Logo_positive-full2.png);
 background-size: 24vh;
@@ -391,6 +516,15 @@ margin:0;
 cursor: pointer;
 }
 
+.ipad{
+display:inline-block !important;
+margin-left: 39vw;
+}
+
+.oculto{
+display: none !important;
+}
+
 .open:hover{
 border: 1px solid #0d99fe;
 }
@@ -400,6 +534,7 @@ margin-left: 2vh;
 font-size: 14px !important;
 opacity: .8;
 height: 2.8vh;
+width: 8vh;
 }
 
 .editText{
@@ -415,9 +550,11 @@ margin-right: 5px;
 }
 
 .shareBox{
-width: 90%;
+width: 100%;
 margin: 10px auto;
 margin-bottom: 4vh;
+padding-bottom: 4vh;
+border-bottom: 1px solid lightgray;
 }
 
 .longButton{
@@ -429,17 +566,20 @@ width: 20%;
 background-color: #0d99fe;
 color:white;
 cursor: pointer;
+height: 7vh;
 
 }
 
 .profile{
 background-image: url('images/0P5A9182 copy.jpg');
-background-size: contain;
-width: 4.4vh;
-height: 4.4vh;
+
+background-size: cover;
+width: 15vh;
+height: 15vh;
 margin-left: 2vh;
 border: 1px solid black;
-margin: .3vh;
+margin: 0;
+margin-bottom: 1vh;
 }
 
 .add{
@@ -455,6 +595,12 @@ background-size: contain;
 .help{
 background-image: url('images/info.svg');
 background-size: contain; 
+}
+
+h4{
+font-size: 14px;
+font-weight: normal;
+line-height: 18px;
 }
 
 .graphic1{
@@ -480,8 +626,8 @@ height: 18vh;
 
 .location{
 display: flex;
-margin-left: 35%;
-margin-top: -15px;
+margin-left: 10vh;
+margin-top: -20px;
 }
 
 @font-face {
@@ -530,11 +676,32 @@ color: #0d99fe;
 background-color: black;
 }
 
+.buttons{
+display: none;
+}
 
 .hidden{
-display:none !important;
+display:inline-block;
 }
 
-
+.red{
+color: red
 }
 
+.yellow{
+color: yellow;
+}
+
+.orange{
+color:orange;
+}
+
+.green{
+color:green;
+}
+
+.hide{
+display: none;
+}
+
+}
