@@ -23,12 +23,59 @@ background-color: white;
 cursor: pointer; 
 }
 
+h4{
+font-size: 14px;
+font-weight: normal;
+line-height: 18px;
+}
+
+nav p{
+font-size: 14px;
+color: white;
+}
+
+content{
+display: flex;
+overflow: hidden;
+}
+
+h1{
+font-size: 5vh;
+}
+
+h3{
+font-size: 18px;
+margin-bottom: 10px;
+margin-right: 2vh;
+padding: 0;
+}
+
+h2{
+font-size: 14px;
+}
+
+p{
+font-size: 12px;
+}
+
+a{
+display: block;
+color: black;
+text-decoration: none;
+font-weight: normal;
+}
+
 input{
 font-family: 'Roboto', sans-serif;
 font-size: 14px;
 outline: none;
 width: 80%;
 border:none;
+}
+
+svg {
+-webkit-transform: rotate(-90deg);
+transform: rotate(-90deg);
 }
 
 input:placeholder{
@@ -70,41 +117,6 @@ font-weight: 550;
 box-shadow: 2px solid #0d99fe;
 }
 
-nav p{
-font-size: 14px
-color: white;
-}
-
-content{
-display: flex;
-overflow: hidden;
-}
-
-h1{
-font-size: 5vh;
-}
-
-h3{
-font-size: 18px;
-margin-bottom: 10px;
-margin-right: 2vh;
-padding: 0;
-}
-
-h2{
-font-size: 14px;
-}
-
-p{
-font-size: 12px;
-}
-
-a{
-display: block;
-color: black;
-text-decoration: none;
-font-weight: normal;
-}
 
 .menuSection i{
 margin-right:1.5vh;
@@ -124,14 +136,10 @@ width: 100%;
 height: 170%;
 position: absolute;
 background-size: cover;
-opacity: .15;
+opacity: .1;
 z-index: -1;
 }
 
-svg {
--webkit-transform: rotate(-90deg);
-transform: rotate(-90deg);
-}
 
 .circle_animation {
 stroke-dasharray: 440; /* this value is the pixel circumference of the circle */
@@ -271,7 +279,6 @@ margin-top: 1vh;
 
 .graph img{
 width: 48vw;
-
 }
 
 .infoWrap{
@@ -279,10 +286,8 @@ order:1;
 }
 
 .charts{
-
 width: 97%;
 margin: 10px auto;
-
 }
 
 .mainInfo{
@@ -298,7 +303,7 @@ padding-top: 2vh;
 }
 
 .iconTop:hover{
-background-color:  #0d99fe;
+background-color: #0d99fe;
 color:white;
 }
 
@@ -356,7 +361,6 @@ font-size: 4vh;
 
 .inner h4{
 font-size: 3vh;
-;
 }
 
 .description h4{
@@ -372,7 +376,6 @@ margin: auto;
 height: 26vh;
 margin-top: 7vh;
 order: 1;
-
 }
 
 .statistics img{
@@ -380,7 +383,6 @@ width: 130%;
 height: 20vh;
 margin: 0;
 border-radius: 50%;
-
 }
 
 .longButton input{
@@ -408,6 +410,7 @@ margin:0;
 
 .colorWrapper{
 background-color: #f9f9f9;
+border-top: .2rem solid #ccc;
 }
 
 .description{
@@ -506,7 +509,7 @@ margin-bottom: 6vh;
 
 .open{
 width: 12vh;
-height: 4vh;
+height: 5.2vh;
 border: 1px solid #d3d3d3;
 vertical-align: top;
 font-size: 2vh;
@@ -567,12 +570,10 @@ background-color: #0d99fe;
 color:white;
 cursor: pointer;
 height: 7vh;
-
 }
 
 .profile{
 background-image: url('images/0P5A9182 copy.jpg');
-
 background-size: cover;
 width: 15vh;
 height: 15vh;
@@ -595,12 +596,6 @@ background-size: contain;
 .help{
 background-image: url('images/info.svg');
 background-size: contain; 
-}
-
-h4{
-font-size: 14px;
-font-weight: normal;
-line-height: 18px;
 }
 
 .graphic1{
@@ -656,15 +651,12 @@ white-space: nowrap;
 direction: ltr;
 cursor: pointer;
 
-/* Support for all WebKit browsers. */
 -webkit-font-smoothing: antialiased;
-/* Support for Safari and Chrome. */
+
 text-rendering: optimizeLegibility;
 
-/* Support for Firefox. */
 -moz-osx-font-smoothing: grayscale;
 
-/* Support for IE. */
 font-feature-settings: 'liga';
 }
 

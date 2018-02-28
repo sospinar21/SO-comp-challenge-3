@@ -3,17 +3,22 @@
 body{
 font-family: 'Roboto', sans-serif;
 font-weight: normal;
-margin: 0;
 font-size: 0;
+margin: 0;
 overflow-x: hidden;
 }  
 
 h5{
 font-size: 4vh;
-text-align: center;
-position: absolute;
 margin-left: 8.5vh;
 margin-top: 10vh;
+position: absolute;
+text-align: center;
+}
+
+svg {
+-webkit-transform: rotate(-90deg);
+transform: rotate(-90deg);
 }
 
 title{
@@ -48,36 +53,6 @@ border:none;
 
 input:placeholder{
 margin-left: 10px;
-}
-
-.sideMenu{
-display: inline-block;
-width: 20%;
-background-color:black;
-position: fixed;
-height: 100vh;
-}
-
-.whiteBg{
-background-color: white;
-}
-
-.mainMenu{
-width: 80%;
-margin: 4vh 0vh 3vh;
-display: flex;
-font-size: 2.4vh;
-justify-content: space-evenly;
-box-sizing: border-box;
-}
-
-.mainMenu a{
-font-weight: 550;
-color: black;
-}
-
-.mainMenu a:hover{
-color: #0d99fe;
 }
 
 nav p{
@@ -116,6 +91,36 @@ text-decoration: none;
 font-weight: normal;
 }
 
+.sideMenu{
+display: inline-block;
+width: 20%;
+background-color:black;
+position: fixed;
+height: 100vh;
+}
+
+.whiteBg{
+background-color: white;
+}
+
+.mainMenu{
+width: 80%;
+margin: 4vh 0vh 3vh;
+display: flex;
+font-size: 2.4vh;
+justify-content: space-evenly;
+box-sizing: border-box;
+}
+
+.mainMenu a{
+font-weight: 550;
+color: black;
+}
+
+.mainMenu a:hover{
+color: #0d99fe;
+}
+
 .menuSection i{
 margin-right:1.5vh;
 vertical-align: top;
@@ -149,7 +154,6 @@ margin-left: 15px;
 border-bottom: 1px solid gainsboro;
 padding-bottom: 12px;
 color: white;
-
 }
 
 .logo{
@@ -224,7 +228,6 @@ width: 88%;
 
 .graph img{
 width: 48vw;
-
 }
 
 .infoWrap{
@@ -236,6 +239,10 @@ display: flex;
 width: 97%;
 margin: 10px auto;
 justify-content: space-between;
+}
+
+.colorWrapper{
+border-top: .2rem solid #ccc;
 }
 
 .jobs{
@@ -334,7 +341,6 @@ width: 85vh;
 height: 15vh;
 margin-top: 7vh;
 order: 1;
-
 }
 
 .statistics img{
@@ -342,7 +348,6 @@ width: 130%;
 height: 20vh;
 margin: 0;
 border-radius: 50%;
-
 }
 
 .longButton input{
@@ -374,7 +379,7 @@ width: 100%;
 height: 170%;
 position: absolute;
 background-size: cover;
-opacity: .15;
+opacity: .1;
 z-index: -1;
 }
 
@@ -479,7 +484,8 @@ margin-bottom: 6vh;
 
 .open{
 width: 12vh;
-height: 4vh;
+border-top: .2rem solid #ccc;
+height: 5.3vh;
 border: 1px solid #d3d3d3;
 vertical-align: top;
 font-size: 2vh;
@@ -530,12 +536,10 @@ width: 6vw;
 background-color: #0d99fe;
 color:white;
 cursor: pointer;
-
 }
 
 .profile{
 background-image: url('images/0P5A9182 copy.jpg');
-
 background-size: cover;
 width: 15vh;
 height: 15vh;
@@ -619,15 +623,12 @@ white-space: nowrap;
 direction: ltr;
 cursor: pointer;
 
-/* Support for all WebKit browsers. */
 -webkit-font-smoothing: antialiased;
-/* Support for Safari and Chrome. */
+
 text-rendering: optimizeLegibility;
 
-/* Support for Firefox. */
 -moz-osx-font-smoothing: grayscale;
 
-/* Support for IE. */
 font-feature-settings: 'liga';
 }
 
@@ -638,8 +639,6 @@ color: #0d99fe;
 .selected{
 background-color: black;
 }
-
-
 
 .item {
 position: relative;
@@ -655,12 +654,7 @@ display:none !important;
 text-align:center;
 position: absolute;
 line-height: 125px;
-width: 100%;
-}
-
-svg {
--webkit-transform: rotate(-90deg);
-transform: rotate(-90deg);
+margin-left: 8.5vh;
 }
 
 .circle_animation {

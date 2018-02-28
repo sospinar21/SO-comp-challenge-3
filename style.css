@@ -260,7 +260,6 @@ padding-left: 32vw;
 margin: auto;
 margin-top: 3vh;
 margin-bottom: 3vh;
-
 }
 
 .statistics img{
@@ -429,7 +428,6 @@ width: 20%;
 background-color: #0d99fe;
 color:white;
 cursor: pointer;
-
 }
 
 .profile{
@@ -510,15 +508,12 @@ white-space: nowrap;
 direction: ltr;
 cursor: pointer;
 
-/* Support for all WebKit browsers. */
 -webkit-font-smoothing: antialiased;
-/* Support for Safari and Chrome. */
+
 text-rendering: optimizeLegibility;
 
-/* Support for Firefox. */
 -moz-osx-font-smoothing: grayscale;
 
-/* Support for IE. */
 font-feature-settings: 'liga';
 }
 
@@ -530,11 +525,9 @@ color: #0d99fe;
 background-color: black;
 }
 
-
 .hidden{
 display:none !important;
 }
-
 
 }
 
