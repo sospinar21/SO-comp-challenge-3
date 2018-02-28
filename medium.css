@@ -267,7 +267,7 @@ margin:10px auto;
 
 .graph{
 width: 90%;
-height: 20vw;
+height: 30vh;
 display: flex;
 justify-content: space-evenly;
 border-left:3px solid black;
