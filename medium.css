@@ -100,7 +100,7 @@ background-color: white;
 width: 80%;
 margin: 4vh 0vh 3vh;
 display: flex;
-font-size: 2.4vh;
+font-size: 2.2vh;
 justify-content: space-evenly;
 box-sizing: border-box;
 }
@@ -340,7 +340,7 @@ border-right: 1px solid gainsboro;
 border-left: 1px solid gainsboro;
 }
 .stat{
-width: 10vw !important;
+width: 12vw !important;
 border-bottom: 1px solid blue !important;
 border: none !important;
 }
@@ -530,7 +530,7 @@ margin-bottom: 6vh;
 .open{
 width: 12vh;
 height: 5.1vh;
-border: 1px solid #d3d3d3;
+border: 1px solid #d3d3d3 !important;
 vertical-align: top;
 font-size: 2vh;
 border-radius: 99px;
