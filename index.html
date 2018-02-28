@@ -20,31 +20,31 @@
     <nav role = 'navigation' class = 'sideMenu'>
       <section class ='hidden userInfo'>
         <button aria-label = "user profile picture" class = 'icon profile'></button>
-        <h2>Stephanie Ospina</h2>
+        <h2 aria-label = "Stephanie is logged in">Stephanie Ospina</h2>
       </section>  
       <section class ='hidden menuSection' role='navigation'>
         <p>Main</p>
-        <a href = '' class = 'aMenu'><i class="material-icons">home</i>HOME</a>
-        <a href = '' class = 'aMenu'><i class="material-icons">folder_open</i>PROJECTS</a>
-        <a href = '' class = 'aMenu'><i class="material-icons">portrait</i>CRM</a>
-        <a href = '' class = 'aMenu'><i class="material-icons">today</i>CALENDAR</a>
-        <a href = '' class = 'aMenu'><i class="material-icons">content_paste</i>TASKS</a>  
+        <a href = '' aria-label = "Home" class = 'aMenu'><i class="material-icons">home</i>HOME</a>
+        <a href = '' aria-label = "projects" class = 'aMenu'><i class="material-icons">folder_open</i>PROJECTS</a>
+        <a href = '' aria-label = "CRM" class = 'aMenu'><i class="material-icons">portrait</i>CRM</a>
+        <a href = '' aria-label = "calendar" class = 'aMenu'><i class="material-icons">today</i>CALENDAR</a>
+        <a href = '' aria-label = "tasks" class = 'aMenu'><i class="material-icons">content_paste</i>TASKS</a>  
       </section>
       <section  role = 'navigation' class ='hidden menuSection admin'>
         <p>Admin</p>
-        <a href = '' class = 'aMenu'><i class="material-icons">account_box</i>USERS</a>
-        <a href = '' class = 'aMenu'><i class="material-icons">location_on</i>LOCATION</a>
-        <a href = '' class = 'aMenu'><i class="material-icons">timeline</i>WORKFLOW</a>
-        <a href = '' class = 'aMenu'><i class="material-icons">settings</i>SETTINGS</a>
-        <a href = '' class = 'aMenu'></a> 
+        <a href = '' aria-label = "users" class = 'aMenu'><i class="material-icons">account_box</i>USERS</a>
+        <a href = '' aria-label = "location" class = 'aMenu'><i class="material-icons">location_on</i>LOCATION</a>
+        <a href = '' aria-label = "workflow" class = 'aMenu'><i class="material-icons">timeline</i>WORKFLOW</a>
+        <a href = '' aria-label = "settings" class = 'aMenu'><i class="material-icons">settings</i>SETTINGS</a>
+        <a href = '' aria-label = "Home" class = 'aMenu'></a> 
       </section> 
       <section role = 'navigation' class ='hidden menuSection'>
         <p>Categories</p>
-        <a href = '' class = 'aMenu'><i class="material-icons red">fiber_manual_record</i>Priority 1</a>
-        <a href = '' class = 'aMenu'><i class="material-icons orange">fiber_manual_record</i>Priority 2</a>
-        <a href = '' class = 'aMenu'><i class="material-icons yellow">fiber_manual_record</i>Priority 3</a>
-        <a href = '' class = 'aMenu'><i class="material-icons green">fiber_manual_record</i>Priority 4</a>
-        <a href = '' class = 'aMenu'><i class="material-icons">fiber_manual_record</i>Priority 5</a> 
+        <a href = '' aria-label = "Priority 1" class = 'aMenu'><i class="material-icons red">fiber_manual_record</i>Priority 1</a>
+        <a href = '' aria-label = "Priority 2" class = 'aMenu'><i class="material-icons orange">fiber_manual_record</i>Priority 2</a>
+        <a href = '' aria-label = "Priority 3" class = 'aMenu'><i class="material-icons yellow">fiber_manual_record</i>Priority 3</a>
+        <a href = '' aria-label = "Priority 4" class = 'aMenu'><i class="material-icons green">fiber_manual_record</i>Priority 4</a>
+        <a href = '' aria-label = "Priority 5" class = 'aMenu'><i class="material-icons">fiber_manual_record</i>Priority 5</a> 
       </section>
     </nav>
   <main>
@@ -54,14 +54,14 @@
         <i class="material-icons hidden">menu</i>
       </div>
       <i class="material-icons searchIcon">search</i>
-      <input type="" name="Search Project" placeholder= "Search projects"></input>
-      <div class = 'iconTop'>
+      <input type="" aria-label = "search projects" name="Search Project" placeholder= "Search projects"></input>
+      <div aria-label = 'sort projects' class = 'iconTop'>
         <i class="material-icons hidden">sort</i>
       </div>
-      <div class = 'iconTop iconBorder'>
+      <div aria-label = 'lock this project' class = 'iconTop iconBorder'>
         <i class="material-icons hover">lock</i>
       </div>
-      <div class = 'iconTop'>
+      <div aria-label = 'help' class = 'iconTop'>
         <i class="material-icons hover">help</i>
       </div>
       <i class="material-icons hover hide oculto">menu</i>
@@ -95,7 +95,7 @@
   <section class = 'colorWrapper'>
     <section class = 'bg'></section>
     <section class = 'charts' aria-label = 'company statistics'>
-      <section class = 'completeChart'>
+      <section aria-label = 'in the last 6 months UBS had 6 projects with Brinkmann' class = 'completeChart'>
         <section class = 'barChart' aria-label = "in 2018 UBS finished 8 projects">
         <article aria-hidden class = 'projects'>
           <p>8</p>
@@ -176,7 +176,7 @@
      <button aria-label = "current jobs" class = 'open stat hidden jobs'>Jobs</button>
     </section>
     <section class = 'edit hide'>
-      <button class = 'open' ><i class="material-icons openButton">check_circle</i>Open</button>
+      <button aria-label = "this job is open" class = 'open' ><i class="material-icons openButton">check_circle</i>Open</button>
         <i class="material-icons">bookmark</i>
         <i class="material-icons">mode_edit</i>
         <i class="material-icons">delete</i>
@@ -185,7 +185,7 @@
       <section aria-hidden class = 'infoWrap'>
         <section class = 'bar'>
           <h3>Project Description</h3>
-          <button class = 'editButton open'><i class="material-icons editText">mode_edit</i>edit</button>
+          <button aria-label = "edit information about this project" class = 'editButton open'><i class="material-icons editText">mode_edit</i>edit</button>
         </section>
         <section aria-label = "this project is Balfour at Lavender" class = 'description'>
           <article aria-hidden class = 'whiteBg'>
@@ -226,9 +226,9 @@
       </section>
       <article aria-label = "social media and links to planroom" class ='socialMedia'>
         <h1 class = 'hide'>Links</h1>
-        <button class='asana'></button>
-        <button class = 'monday'></button>
-        <button class = 'todoist'></button>
+        <button aria-label = "Link to Asana webiste" class='asana'></button>
+        <button aria-label = "Link to monday webiste" class = 'monday'></button>
+        <button aria-label = "Link to todoist webiste" class = 'todoist'></button>
         <section class = shareBox>
           <h3><i class="material-icons link">link</i>Link to Planroom</h3>
           <h4>Access plans, CAD files and Drawings</h4>
