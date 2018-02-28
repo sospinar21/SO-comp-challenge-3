@@ -164,7 +164,7 @@ display: none !important;
 
 .logo{
 width: 32vh;
-margin-left: 18vw;
+margin-left: 8vh;
 }
 
 .hover{
@@ -314,7 +314,7 @@ justify-content: space-evenly;
 position: fixed;
 padding-top: 2vh;
 z-index: 3;
-margin-top: -13vw;
+margin-top: -11vw;
 border-top: 1px solid lightgrey;
 }
 
